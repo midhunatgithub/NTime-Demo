@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zk2-BO-A3N">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="BT5-oh-me8">
+            <objects>
+                <viewController id="Zk2-BO-A3N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bbd-s0-pRS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🗞" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4e-dU-BmU">
+                                <rect key="frame" x="137" y="342" width="140" height="140"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="140"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NY Times" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWB-XY-fht">
+                                <rect key="frame" x="118.5" y="490" width="187.5" height="39"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="U4e-dU-BmU" firstAttribute="centerX" secondItem="bbd-s0-pRS" secondAttribute="centerX" id="U05-Rp-cY3"/>
+                            <constraint firstItem="U4e-dU-BmU" firstAttribute="centerY" secondItem="bbd-s0-pRS" secondAttribute="centerY" constant="-36" id="gzQ-So-teJ"/>
+                            <constraint firstItem="OWB-XY-fht" firstAttribute="top" secondItem="U4e-dU-BmU" secondAttribute="bottom" constant="8" id="q8B-yw-RsA"/>
+                            <constraint firstItem="OWB-XY-fht" firstAttribute="centerX" secondItem="U4e-dU-BmU" secondAttribute="centerX" constant="5" id="utG-7x-7b3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eO1-cB-OLX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NDQ-Gd-NRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92" y="178"/>
+        </scene>
+    </scenes>
+</document>
